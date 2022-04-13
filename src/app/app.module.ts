@@ -9,6 +9,12 @@ import { CartComponent } from './cart/cart.component';
 import { PostsComponent } from './posts/posts.component';
 import { CommentsComponent } from './comments/comments.component';
 import { ProfileComponent } from './profile/profile.component';
+import { CartService } from './services/cart-service';
+import { CommentService } from './services/comment-service';
+import { PostService } from './services/post-service';
+import { ProductService } from './services/product-service';
+import { ProfileService } from './services/profile-service';
+import { WishlistService } from './services/wishlist-service';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,7 @@ import { ProfileComponent } from './profile/profile.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [CartService, CommentService, PostService, ProfileService, ProductService, WishlistService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
