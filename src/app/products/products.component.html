@@ -1,23 +1,45 @@
 <p>products works!</p>
 <div>
     <label>Id:</label>
-    <input type="number"> 
+    <input type="number" name="id" [(ngModel)]="product.id" > 
 </div>
 <div>
     <label>Name:</label>
-    <input type="text"> 
+    <input type="text" name="name" [(ngModel)]="product.name" >  
 </div>
 <div>
     <label>Description:</label>
-    <textarea placeholder="description"></textarea>
+    <textarea placeholder="description" name="description" [(ngModel)]="product.description" ></textarea>
 </div>
 <div>
     <label>ImageUrl:</label>
-    <input type="text"> 
+    <input type="text" name="imageUrl" [(ngModel)]="product.imageUrl" > 
 </div>
 <div>
     <label>Price:</label>
-    <input type="number"> 
+    <input type="number"name="price" [(ngModel)]="product.price" > 
 </div>
 
-<button>Submit</button>
+<button (click)="save()">Submit</button>
+
+
+<div>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>ImageUrl</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let product of products"> 
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.description}}</td>
+            <td>{{product.imageUrl}}</td>
+            <td>{{product.price}}</td>
+            <td><button (click)="addToCart(product)">Add to Cart</button></td>
+        </tr>
+    </table>
+</div>

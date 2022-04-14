@@ -15,6 +15,8 @@ import { PostService } from './services/post-service';
 import { ProductService } from './services/product-service';
 import { ProfileService } from './services/profile-service';
 import { WishlistService } from './services/wishlist-service';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { WishlistService } from './services/wishlist-service';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [CartService, CommentService, PostService, ProfileService, ProductService, WishlistService],

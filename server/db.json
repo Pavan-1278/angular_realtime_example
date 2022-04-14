@@ -34,6 +34,20 @@
       "description": "In aliquet aliquam dictum. Curabitur a neque enim. Duis tincidunt metus vitae arcu pretium, eu rhoncus urna venenatis. Etiam eu est pharetra, auctor lorem a, finibus felis. Vestibulum convallis auctor magna nec posuere. Proin velit augue, rhoncus vulputate convallis vitae, lobortis vel justo. Maecenas lectus ligula,",
       "imageUrl": "https://www.pascogifts.com/files/cache/square/files/8182-002-foto-1-pluche-knuffelbeer-met-hoodie-low-resolution-748248-5bc4915253078.jpg",
       "price": 99
+    },
+    {
+      "id": 6,
+      "name": "Iron Man",
+      "description": "Action Figure",
+      "imageUrl": "www.google.com",
+      "price": 200
+    },
+    {
+      "id": 7,
+      "name": "Captain America",
+      "description": "Action Figure Civil War",
+      "imageUrl": "www.google.com",
+      "price": 200
     }
   ],
   "wishlist": [
@@ -173,6 +187,66 @@
         "price": 399
       },
       "id": 12
+    },
+    {
+      "product": {
+        "id": null,
+        "name": "",
+        "description": "",
+        "imageUrl": "",
+        "price": null
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": null,
+        "name": "",
+        "description": "",
+        "imageUrl": "",
+        "price": null
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": null,
+        "name": "",
+        "description": "",
+        "imageUrl": "",
+        "price": null
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": null,
+        "name": "",
+        "description": "",
+        "imageUrl": "",
+        "price": null
+      },
+      "id": 16
+    },
+    {
+      "product": {
+        "id": null,
+        "name": "",
+        "description": "",
+        "imageUrl": "",
+        "price": null
+      },
+      "id": 17
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "Iron Man",
+        "description": "Action Figure",
+        "imageUrl": "www.google.com",
+        "price": 200
+      },
+      "id": 18
     }
   ],
   "posts": [

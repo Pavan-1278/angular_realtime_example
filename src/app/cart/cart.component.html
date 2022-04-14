@@ -1,1 +1,21 @@
 <p>cart works!</p>
+<div>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>ImageUrl</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let cart of carts"> 
+            <td>{{cart.product.id}}</td>
+            <td>{{cart.product.name}}</td>
+            <td>{{cart.product.description}}</td>
+            <td>{{cart.product.imageUrl}}</td>
+            <td>{{cart.product.price}}</td>
+            <td><button (click)="delete()">Delete</button></td>
+        </tr>
+    </table>
+</div>
