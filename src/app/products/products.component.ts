@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../services/product-service';
 import { CartService } from '../services/cart-service';
 import { JsonpClientBackend } from '@angular/common/http';
+import { WishlistService } from '../services/wishlist-service';
 
 
 @Component({
@@ -19,7 +20,7 @@ export class ProductsComponent implements OnInit {
   };
   products: any =[];
 
-  constructor( private prodServ: ProductService, private cartServ: CartService) { }
+  constructor( private prodServ: ProductService, private cartServ: CartService, private wishlistServ: WishlistService) { }
 
   ngOnInit(): void {
     this.getProducts()
@@ -48,5 +49,11 @@ export class ProductsComponent implements OnInit {
       alert("Success ");
     });
 
+  }
+  addToWishlist(product: any)
+  {  
+    this.wishlistServ.createWishlist(product).subscribe((data: {}) => {
+      alert("Success ");
+    });
   }
 }

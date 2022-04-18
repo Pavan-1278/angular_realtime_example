@@ -17,6 +17,8 @@ import { ProfileService } from './services/profile-service';
 import { WishlistService } from './services/wishlist-service';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthGuardService } from './auth-services/auth-service-guard';
+import { AuthService } from './auth-services/auth-service';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,8 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [CartService, CommentService, PostService, ProfileService, ProductService, WishlistService],
+  providers: [CartService, CommentService, PostService, ProfileService, ProductService, WishlistService,
+  AuthGuardService,AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

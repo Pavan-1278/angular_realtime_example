@@ -16,13 +16,17 @@ export class CartComponent implements OnInit {
   getCarts(){
     this.cartServ.getCarts().subscribe((data: any) => {
       this.carts=data;
-      alert(JSON.stringify(data));
+      //alert(JSON.stringify(data));
     });
 
   }
 
-  delete(){
-
+  deleteItem(id : any){
+    alert(id)
+    this.cartServ.deleteCart(id).subscribe((data: any) => {
+      this.carts=data;
+      alert("Successfully deleted the item from cart");
+    });
   }
 
 }

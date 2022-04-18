@@ -1,27 +1,27 @@
 <p>products works!</p>
-<div>
-    <label>Id:</label>
-    <input type="number" name="id" [(ngModel)]="product.id" > 
-</div>
-<div>
-    <label>Name:</label>
-    <input type="text" name="name" [(ngModel)]="product.name" >  
-</div>
-<div>
-    <label>Description:</label>
-    <textarea placeholder="description" name="description" [(ngModel)]="product.description" ></textarea>
-</div>
-<div>
-    <label>ImageUrl:</label>
-    <input type="text" name="imageUrl" [(ngModel)]="product.imageUrl" > 
-</div>
-<div>
-    <label>Price:</label>
-    <input type="number"name="price" [(ngModel)]="product.price" > 
-</div>
-
-<button (click)="save()">Submit</button>
-
+<form class="form-horizontal">
+    <div>
+        <label class="control-label" >Id:</label>
+        <input type="number" name="id" [(ngModel)]="product.id" > 
+    </div>
+    <div>
+        <label class="control-label" >Name:</label>
+        <input type="text" name="name" [(ngModel)]="product.name" >  
+    </div>
+    <div>
+        <label class="control-label" >Description:</label>
+        <textarea placeholder="description" name="description" [(ngModel)]="product.description" ></textarea>
+    </div>
+    <div>
+        <label class="control-label" >ImageUrl:</label>
+        <input type="text" name="imageUrl" [(ngModel)]="product.imageUrl" > 
+    </div>
+    <div>
+        <label class="control-label" >Price:</label>
+        <input type="number"name="price" [(ngModel)]="product.price" > 
+    </div>
+    <button (click)="save()" class="btn btn-default">Submit</button>    
+</form>
 
 <div>
     <table>
@@ -31,7 +31,7 @@
             <th>Description</th>
             <th>ImageUrl</th>
             <th>Price</th>
-            <th>Action</th>
+            <th>Actions</th>
         </tr>
         <tr *ngFor="let product of products"> 
             <td>{{product.id}}</td>
@@ -40,6 +40,7 @@
             <td>{{product.imageUrl}}</td>
             <td>{{product.price}}</td>
             <td><button (click)="addToCart(product)">Add to Cart</button></td>
+            <td><button (click)="addToWishlist(product)">Add to Wishlist</button></td>
         </tr>
     </table>
 </div>

@@ -4,13 +4,14 @@
       <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a [routerLink]="['products']" >Products</a></li>
-      <li><a [routerLink]="['wishlist']" >Wishlist</a></li>
-      <li><a [routerLink]="['cart']" >Cart</a></li>
-      <li><a [routerLink]="['posts']" >Posts</a></li>
-      <li><a [routerLink]="['comments']" >Comments</a></li>
-      <li><a [routerLink]="['profile']" >Profile</a></li>
+      <li><a [routerLink]="['login']" *ngIf="!user_LoggedIn"  class="active">Login</a></li>
+      <li><a [routerLink]="['products']" *ngIf="user_LoggedIn" class="active" >Products</a></li>
+      <li><a [routerLink]="['wishlist']"  *ngIf="user_LoggedIn" >Wishlist</a></li>
+      <li><a [routerLink]="['cart']" *ngIf="user_LoggedIn" >Cart</a></li>
+      <li><a [routerLink]="['posts']" *ngIf="user_LoggedIn" >Posts</a></li>
+      <li><a [routerLink]="['comments']" *ngIf="user_LoggedIn" >Comments</a></li>
+      <li><a [routerLink]="['profile']" *ngIf="user_LoggedIn" >Profile</a></li>
+      <li><button (click)="logout()" *ngIf="user_LoggedIn" style="margin-top: 10px;" >Logout</button></li>  
     </ul>
   </div>
 </nav>

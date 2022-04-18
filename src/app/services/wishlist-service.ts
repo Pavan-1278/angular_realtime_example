@@ -21,19 +21,19 @@ export class WishlistService {
 
   getWishlists(){
     return this.http
-      .get(this.apiURL + '/wishlists')
+      .get(this.apiURL + '/wishlist')
       .pipe(retry(1), catchError(this.handleError));
   }
 
    getWishlist(id: any) {
      return this.http
-      .get(this.apiURL + '/wishlists/' + id)
+      .get(this.apiURL + '/wishlist/' + id)
       .pipe(retry(1), catchError(this.handleError));
   }
   createWishlist(wishlist: any) {
     return this.http
       .post(
-        this.apiURL + '/wishlists',
+        this.apiURL + '/wishlist',
         JSON.stringify(wishlist),
         this.httpOptions
       )
@@ -42,7 +42,7 @@ export class WishlistService {
   updateWishlist(id: any, wishlist: any){
     return this.http
       .put(
-        this.apiURL + '/wishlists/' + id,
+        this.apiURL + '/wishlist/' + id,
         JSON.stringify(wishlist),
         this.httpOptions
       )
@@ -51,7 +51,7 @@ export class WishlistService {
 
   deleteWishlist(id: any) {
     return this.http
-      .delete(this.apiURL + '/wishlists/' + id, this.httpOptions)
+      .delete(this.apiURL + '/wishlist/' + id, this.httpOptions)
       .pipe(retry(1), catchError(this.handleError));
   }
   // Error handling

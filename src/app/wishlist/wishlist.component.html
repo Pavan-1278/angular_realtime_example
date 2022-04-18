@@ -1,1 +1,21 @@
 <p>wishlist works!</p>
+<div>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>ImageUrl</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let product of wishlist"> 
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.description}}</td>
+            <td>{{product.imageUrl}}</td>
+            <td>{{product.price}}</td>
+            <td><button (click)="addToCart(product)">Add to Cart</button></td>
+        </tr>
+    </table>
+</div>

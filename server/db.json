@@ -52,19 +52,11 @@
   ],
   "wishlist": [
     {
-      "id": 1
-    },
-    {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 2
+      "id": 1,
+      "name": "Rubik's Cube",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra velit erat. Praesent consequat nec ipsum non volutpat. Morbi vel ex auctor, porttitor felis in, accumsan urna. Duis hendrerit est ut ligula consequat vestibulum. Pellentesque ultrices semper nunc eu mattis. Sed vehicula leo sit amet mi tincidunt, sit amet interdum nulla sollicitudin",
+      "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
+      "price": 299
     }
   ],
   "cart": [
@@ -80,46 +72,6 @@
     },
     {
       "product": {
-        "id": 3,
-        "name": "The Train",
-        "description": "In hac habitasse platea dictumst. Integer volutpat fringilla elit, sit amet molestie neque volutpat a. Ut quis ligula libero. Suspendisse justo ipsum, efficitur non lobortis sed",
-        "imageUrl": "https://b3h2.scene7.com/is/image/BedBathandBeyond/139044962738514p?$imagePLP$&wid=256&hei=256",
-        "price": 399
-      },
-      "id": 2
-    },
-    {
-      "product": {
-        "id": 1,
-        "name": "Rubik's Cube",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra velit erat. Praesent consequat nec ipsum non volutpat. Morbi vel ex auctor, porttitor felis in, accumsan urna. Duis hendrerit est ut ligula consequat vestibulum. Pellentesque ultrices semper nunc eu mattis. Sed vehicula leo sit amet mi tincidunt, sit amet interdum nulla sollicitudin",
-        "imageUrl": "https://i.pinimg.com/originals/15/63/14/156314273707e696638ff369a2a92e51.jpg",
-        "price": 299
-      },
-      "id": 3
-    },
-    {
-      "product": {
-        "id": 2,
-        "name": "Rubik's Cube 2",
-        "description": "Praesent dictum laoreet nibh nec volutpat. Etiam vel arcu lectus. Maecenas tellus eros, euismod a urna eget, interdum posuere dolor. Vivamus eleifend convallis nisi vel blandit. Praesent sed tellus vitae dui viverra faucibus porttitor ut dui. Praesent id metus ut augue tincidunt porttitor ut ac nisl. Etiam ac porttitor massa,",
-        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
-        "price": 199
-      },
-      "id": 4
-    },
-    {
-      "product": {
-        "id": 3,
-        "name": "The Train",
-        "description": "In hac habitasse platea dictumst. Integer volutpat fringilla elit, sit amet molestie neque volutpat a. Ut quis ligula libero. Suspendisse justo ipsum, efficitur non lobortis sed",
-        "imageUrl": "https://b3h2.scene7.com/is/image/BedBathandBeyond/139044962738514p?$imagePLP$&wid=256&hei=256",
-        "price": 399
-      },
-      "id": 5
-    },
-    {
-      "product": {
         "id": 2,
         "name": "Rubik's Cube 2",
         "description": "Praesent dictum laoreet nibh nec volutpat. Etiam vel arcu lectus. Maecenas tellus eros, euismod a urna eget, interdum posuere dolor. Vivamus eleifend convallis nisi vel blandit. Praesent sed tellus vitae dui viverra faucibus porttitor ut dui. Praesent id metus ut augue tincidunt porttitor ut ac nisl. Etiam ac porttitor massa,",
@@ -130,16 +82,6 @@
     },
     {
       "product": {
-        "id": 5,
-        "name": "Teddy",
-        "description": "In aliquet aliquam dictum. Curabitur a neque enim. Duis tincidunt metus vitae arcu pretium, eu rhoncus urna venenatis. Etiam eu est pharetra, auctor lorem a, finibus felis. Vestibulum convallis auctor magna nec posuere. Proin velit augue, rhoncus vulputate convallis vitae, lobortis vel justo. Maecenas lectus ligula,",
-        "imageUrl": "https://www.pascogifts.com/files/cache/square/files/8182-002-foto-1-pluche-knuffelbeer-met-hoodie-low-resolution-748248-5bc4915253078.jpg",
-        "price": 99
-      },
-      "id": 7
-    },
-    {
-      "product": {
         "id": 3,
         "name": "The Train",
         "description": "In hac habitasse platea dictumst. Integer volutpat fringilla elit, sit amet molestie neque volutpat a. Ut quis ligula libero. Suspendisse justo ipsum, efficitur non lobortis sed",
@@ -147,16 +89,6 @@
         "price": 399
       },
       "id": 8
-    },
-    {
-      "product": {
-        "id": 3,
-        "name": "The Train",
-        "description": "In hac habitasse platea dictumst. Integer volutpat fringilla elit, sit amet molestie neque volutpat a. Ut quis ligula libero. Suspendisse justo ipsum, efficitur non lobortis sed",
-        "imageUrl": "https://b3h2.scene7.com/is/image/BedBathandBeyond/139044962738514p?$imagePLP$&wid=256&hei=256",
-        "price": 399
-      },
-      "id": 9
     },
     {
       "product": {
@@ -190,56 +122,6 @@
     },
     {
       "product": {
-        "id": null,
-        "name": "",
-        "description": "",
-        "imageUrl": "",
-        "price": null
-      },
-      "id": 13
-    },
-    {
-      "product": {
-        "id": null,
-        "name": "",
-        "description": "",
-        "imageUrl": "",
-        "price": null
-      },
-      "id": 14
-    },
-    {
-      "product": {
-        "id": null,
-        "name": "",
-        "description": "",
-        "imageUrl": "",
-        "price": null
-      },
-      "id": 15
-    },
-    {
-      "product": {
-        "id": null,
-        "name": "",
-        "description": "",
-        "imageUrl": "",
-        "price": null
-      },
-      "id": 16
-    },
-    {
-      "product": {
-        "id": null,
-        "name": "",
-        "description": "",
-        "imageUrl": "",
-        "price": null
-      },
-      "id": 17
-    },
-    {
-      "product": {
         "id": 6,
         "name": "Iron Man",
         "description": "Action Figure",
@@ -247,6 +129,26 @@
         "price": 200
       },
       "id": 18
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Rubik's Cube 2",
+        "description": "Praesent dictum laoreet nibh nec volutpat. Etiam vel arcu lectus. Maecenas tellus eros, euismod a urna eget, interdum posuere dolor. Vivamus eleifend convallis nisi vel blandit. Praesent sed tellus vitae dui viverra faucibus porttitor ut dui. Praesent id metus ut augue tincidunt porttitor ut ac nisl. Etiam ac porttitor massa,",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/610YnX2Cu9L._CR204,0,1224,1224_UX256.jpg",
+        "price": 199
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Teddy",
+        "description": "In aliquet aliquam dictum. Curabitur a neque enim. Duis tincidunt metus vitae arcu pretium, eu rhoncus urna venenatis. Etiam eu est pharetra, auctor lorem a, finibus felis. Vestibulum convallis auctor magna nec posuere. Proin velit augue, rhoncus vulputate convallis vitae, lobortis vel justo. Maecenas lectus ligula,",
+        "imageUrl": "https://www.pascogifts.com/files/cache/square/files/8182-002-foto-1-pluche-knuffelbeer-met-hoodie-low-resolution-748248-5bc4915253078.jpg",
+        "price": 99
+      },
+      "id": 5
     }
   ],
   "posts": [
